@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/custompag.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Detalhes da Receita</title>
+  </head>
+  <body class="p-3">
+    <div>
+      <header class="h-100 d-flex justify-content-between mb-3">
+        <div class="logo d-flex justify-content-center align-items-center">
+          <p class="fs-3">LOGOMARCA</p>
+        </div>
+        <div class="user d-flex justify-content-center align-items-center">
+          <div class="d-flex flex-row justify-content-center align-items-center">
+            <i class="far fa-user fa-2x me-2"></i>
+            <a href="#" id="username" class="fs-4">Usuário</a>
+          </div>
+        </div>
+      </header>
+      <nav class="d-flex flex-row align-items-center">
+        <nav id="breadcrumb-nav" aria-label="breadcrumb">
+              <ol class="breadcrumb fs-4">
+                <li class="breadcrumb-item active"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Receitas</li>
+              </ol>
+        </nav>
+        <div id="search-nav" class="h-100 d-flex flex-column bg-light">
+          <form class="d-flex w-100">
+            <input class="form-control w-75 me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success w-25" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+   <div class="receita">
+    <div class="d-flex align-items-center p-2">
+      <div class="imagem-receita">
+      <img src="" alt="" height="215" width="215">
+      </div>
+      <div class="informacoes">
+        <div>
+          estrelas
+        </div>
+        <div>
+          <h2>Nome da Receita</h2>
+        </div>
+        <div>
+          detalhes
+        </div>
+        <div>
+          <b>Preparo:</b>
+        </div>
+        <div>
+          <b>Cozimento:</b>
+        </div>
+      </div>
+      <div class="ingredientes">
+        <div>
+          <h3>Ingredientes:</h3>
+        </div>
+        <div>
+          <ul>
+            <li>ingrediente 1</li>
+            <li>ingrediente 2</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+    <br>
+    <div class="d-flex justify-content-between p-2">
+      <div class="preparo p-2">
+        <div class="passo-a-passo">
+          <h2>Passo-a-Passo</h2>
+        </div>
+        <div>
+          <ol>
+            <li>Passo 1</li>
+            <li>Passo 2</li>
+            <li>Passo 3</li>
+          </ol>
+        </div>
+      </div>
+      <div class="aba-comentario p-2">
+        <div>
+          <h2>Comentários</h2>
+        </div>
+        <div>
+          imagem /comentário
+        </div>
+        <br>
+        <div>
+          imagem /comentário
+        </div>
+        <br>
+        <div>
+          imagem /comentário
+        </div>
+        <br>
+        <div>
+          <div id="search-nav" class="h-100 d-flex flex-column bg-light">
+            <form class="d-flex w-100">
+              <input class="form-control w-75 me-2" type="search" placeholder="" aria-label="search">
+              <button class="btn btn-outline-success w-25" type="submit">Comentar</button>
+            </form>
+          </div>
+        </div>
+    </div>
+    </div>
+  </body>

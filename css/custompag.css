@@ -1,0 +1,42 @@
+#breadcrumb-nav, #main {
+  width: 60%;
+}
+
+#search-nav, #other-recipes {
+  width: 40%;
+}
+
+.receita {
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 2px;
+  margin-left: 30px;
+
+}
+
+.preparo {
+  border-style: solid;
+  border-width: 2px;
+  border-color: cyan;
+  width: 60%;
+  margin-left: 20px;
+}
+.aba-comentario {
+  border-style: solid;
+  border-width: 2px;
+  border-color: aqua;
+  width: 38%;
+}
+
+.ingredientes {
+
+}
+
+.informacoes {
+  margin-right: 30px;
+  margin-left: 50px;
+}
+
+.imagem-receita {
+  margin-right: 30px;
+}
