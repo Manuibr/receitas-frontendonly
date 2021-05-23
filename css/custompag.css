@@ -10,12 +10,25 @@
   border-style: solid;
   border-width: 2px;
   border-color: cyan;
+  width: 60%;
+  margin-left: 20px;
 }
 .aba-comentario {
   border-style: solid;
   border-width: 2px;
   border-color: aqua;
+  width: 38%;
 }
+
 .ingredientes {
-  text-align: end;
+
+}
+
+.informacoes {
+  margin-right: 30px;
+  margin-left: 50px;
+}
+
+.imagem-receita {
+  margin-right: 30px;
 }
