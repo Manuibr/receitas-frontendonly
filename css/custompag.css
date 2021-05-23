@@ -1,3 +1,11 @@
+#breadcrumb-nav, #main {
+  width: 60%;
+}
+
+#search-nav, #other-recipes {
+  width: 40%;
+}
+
 .receita {
   border-style: solid;
   border-color: lightgray;
