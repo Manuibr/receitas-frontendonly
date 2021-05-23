@@ -8,84 +8,88 @@
     <!-- Bootstrap CSS -->
     <link href="../css/custom.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
     <title>Receitas</title>
   </head>
   <body>
-    <div>
-      <header class="d-flex justify-content-between">
-        <div class="logo">
-          LOGO
+    <div class="p-3">
+      <header class="h-100 d-flex justify-content-between mb-3">
+        <div class="logo d-flex justify-content-center align-items-center">
+          <p class="fs-3">LOGO</p>
         </div>
-        <div class="user">
-          QUALQUER
+        <div class="user d-flex justify-content-center align-items-center">
+          <div class="d-flex flex-row justify-content-center align-items-center"> 
+            <i class="far fa-user fa-2x me-2"></i>
+            <a href="#" id="username" class="fs-4">Usuário</a>
+          </div>
         </div>
       </header>
-    </div>
-    <br>
-    <nav class="d-flex flex-row">
-      <nav class="w-75">
-        <div class="breadcrumb">
-          <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item active" aria-current="page"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Receitas</li>
-            </ol>
-          </nav>
+      <nav class="d-flex flex-row align-items-center">
+        <nav id="breadcrumb-nav" aria-label="breadcrumb">
+              <ol class="breadcrumb fs-4">
+                <li class="breadcrumb-item active"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Receitas</li>
+              </ol>
+        </nav>
+        <div id="search-nav" class="h-100 d-flex flex-column bg-light">
+          <form class="d-flex w-100">
+            <input class="form-control w-75 me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success w-25" type="submit">Pesquisar</button>
+          </form>
         </div>
       </nav>
-      <div class="d-flex flex-column w-25 bg-light">
-          <nav class="navbar w-100">
-            <div class="container-fluid">
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success " type="submit">Pesquisar</button>
-                </form>
+    </div>
+    
+
+
+
+    <div class="main">
+      <div class="sbv">
+        <b>Sejam Bem Vindos!</b>
+          <div>
+            <hr>
+            <div class="video">
+              <object width="550" height="350" data="https://www.youtube.com/embed/F9Bo89m2f6g"></object>
             </div>
-          </nav>
+          </div>
+        </div>
+      <div class="mr">
+        Melhores Receitas
+            <hr>
+      <div class="imgreceita">
+        <img src="" height="100px" width="100px">
       </div>
-    </nav>
-      <div class="main">
-        <div class="sbv">
-          <b>Sejam Bem Vindos!</b>
-            <div>
-              <hr>
-              <div class="video">
-                <object width="550" height="350" data="https://www.youtube.com/embed/F9Bo89m2f6g"></object>
-              </div>
-            </div>
-        </div>
-        <div class="mr">
-          Melhores Receitas
-              <hr>
-        <div class="imgreceita">
-          <img src="" height="100px" width="100px">
-        </div>
-        <div class="descricao">
-          Receita 01
-          <br>
-          (descrição da Receita)
-        </div>
-          <br>
-          <br>
-          <br>
-        <div class="linkreceita">
-          <a href="http://">Leia Mais</a>
-        </div>
-          <br>
-        <div class="imgreceita">
-          <img src="" height="100px" width="100px">
-        </div>
-        <div class="descricao">
-          Receita 02
-          <br>
-          (descrição da Receita)
-        </div>
-          <br>
-          <br>
-          <br>
-        <div class="linkreceita">
-          <a href="http://">Leia Mais</a>
-        </div>
+      <div class="descricao">
+        Receita 01
+        <br>
+        (descrição da Receita)
+      </div>
+        <br>
+        <br>
+        <br>
+      <div class="linkreceita">
+        <a href="http://">Leia Mais</a>
+      </div>
+        <br>
+      <div class="imgreceita">
+        <img src="" height="100px" width="100px">
+      </div>
+      <div class="descricao">
+        Receita 02
+        <br>
+        (descrição da Receita)
+      </div>
+        <br>
+        <br>
+        <br>
+      <div class="linkreceita">
+        <a href="http://">Leia Mais</a>
+      </div>
           <br>
         <div class="imgreceita">
           <img src="" height="100px" width="100px">
