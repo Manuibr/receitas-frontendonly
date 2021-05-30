@@ -28,15 +28,17 @@
   width: 38%;
 }
 
-.ingredientes {
-
-}
-
 .informacoes {
   margin-right: 30px;
   margin-left: 50px;
 }
 
-.imagem-receita {
+.imagem_receita {
   margin-right: 30px;
+}
+.biografia{
+  border-style: solid;
+  border-color: rgb(3, 255, 242);
+  border-width: 2px;
+  margin-left: 30px;
 }

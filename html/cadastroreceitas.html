@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/cadastro.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <title>Receitas</title>
+  </head>
+  <body>
+    <div class="p-3">
+      <div>
+        <header class="h-100 d-flex justify-content-between mb-3">
+          <div class="logo d-flex justify-content-center align-items-center">
+            <p class="fs-3">LOGOMARCA</p>
+          </div>
+          <div class="user d-flex justify-content-center align-items-center">
+            <div class="d-flex flex-row justify-content-center align-items-center">
+              <i class="far fa-user fa-2x me-2"></i>
+              <a href="#" id="username" class="fs-4">Usuário</a>
+            </div>
+          </div>
+        </header>
+        <nav class="d-flex flex-row align-items-center">
+          <nav id="breadcrumb-nav" aria-label="breadcrumb">
+                <ol class="breadcrumb fs-5">
+                  <li class="breadcrumb-item active"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Receitas</li>
+                </ol>
+          </nav>
+          <div id="search-nav" class="h-100 d-flex flex-column bg-light">
+            <form class="d-flex w-100">
+              <input class="form-control w-75 me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success w-25" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div>
+      <div class="cdr">
+        Cadastro De Receitas
+        <hr>
+        <div class="d-flex align-items-center">
+          <div class="imagem_cadastro p-1">
+            <div>
+              <img src="" height="150" width="150">
+            </div>
+            <div class="botao_imagem p-1">
+              <button class="btn btn-outline-success w-100 p-1" type="submit">enviar imagem</button>
+            </div>
+          </div>
+          <div class="">
+            <div class="">
+              <div class="titulo_cadastro">
+                Título
+                <div class="caixa_titulo">
+                  <input type="text" class="text-break">
+                </div>
+              </div>
+            </div>
+              <div class="descricao_cadastro ">
+                <div class="caixa_descricao ">
+                  <div class="mb-3">
+                      <div>
+                        Descrição da Receita
+                      </div>
+                    </div>
+                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="cadastro_ingredientes">
+            ingredientes
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
