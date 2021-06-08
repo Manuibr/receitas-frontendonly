@@ -43,10 +43,10 @@ p {
   text-align: center;
   margin: 0 !important;
 }
-#catalogo-botoes{
+.catalogo-botoes{
   width: 50px;
 
 }
-#catalogo-botao {
+.catalogo-botao {
   width: 30px;
 }
