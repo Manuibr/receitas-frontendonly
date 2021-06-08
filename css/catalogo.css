@@ -41,4 +41,12 @@ p {
 }
 .botoes {
   text-align: center;
+  margin: 0 !important;
+}
+#catalogo-botoes{
+  width: 50px;
+
+}
+#catalogo-botao {
+  width: 30px;
 }
