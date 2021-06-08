@@ -26,10 +26,19 @@ header, #row-2 {
   background-color: #b71540 !important;
 }
 
+#search-nav form {
+  background-color: #b71540;
+}
+
 #search-input {
   border-width: 0px 0px;
   box-shadow: none;
 }
+
+#search-button {
+  
+}
+
 .sbv {
   border-bottom-width: 0px;
 
