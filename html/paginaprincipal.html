@@ -17,114 +17,112 @@
     <title>Receitas</title>
   </head>
   <body>
-    <div class="p-3">
-      <div>
-        <header class="h-100 d-flex justify-content-between mb-3">
-          <div class="logo d-flex justify-content-center align-items-center">
-            <p class="fs-3">LOGOMARCA</p>
+    <header class="p-3">
+      <div id="row-1" class="h-100 d-flex justify-content-between mb-3">
+        <div class="logo d-flex justify-content-center align-items-center">
+          <p class="fs-3">LOGOMARCA</p>
+        </div>
+        <div class="user d-flex justify-content-center align-items-center">
+          <div id="user-menu" class="d-flex flex-row justify-content-center align-items-center">
+            <img src="../img/usericon.svg" alt="Icone usuário">
+            <a href="#" id="username" class="fs-4">Usuário</a>
           </div>
-          <div class="user d-flex justify-content-center align-items-center">
-            <div class="d-flex flex-row justify-content-center align-items-center">
-              <i class="far fa-user fa-2x me-2"></i>
-              <a href="#" id="username" class="fs-4">Usuário</a>
-            </div>
-          </div>
-        </header>
-        <nav class="d-flex flex-row align-items-center">
-          <nav id="breadcrumb-nav" aria-label="breadcrumb">
-                <ol class="breadcrumb fs-5">
-                  <li class="breadcrumb-item active"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Receitas</li>
-                </ol>
-          </nav>
-          <div id="search-nav" class="h-100 d-flex flex-column bg-light">
-            <form class="d-flex w-100">
-              <input class="form-control w-75 me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success w-25" type="submit">Pesquisar</button>
-            </form>
-          </div>
+        </div>
+      </div>
+      <div id="row-2" class="d-flex flex-row align-items-center">
+        <nav id="breadcrumb-nav" aria-label="breadcrumb">
+              <ol class="breadcrumb fs-5">
+                <li class="breadcrumb-item active"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Receitas</li>
+              </ol>
         </nav>
+        <div id="search-nav" class="h-100 d-flex flex-column bg-light rounded">
+          <form class="d-flex w-100">
+            <input id="search-input" class="form-control w-75" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success w-25" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <section class="d-flex flex-row mt-3">
+      <div id="main" class="d-flex justify-content-start">
+        <div class="d-flex flex-column">
+          <div class="sbv mb-4">
+            <b>Sejam Bem Vindos!</b>
+          </div>
+          <div class="video">
+            <object width="700em" height="400em" data="https://www.youtube.com/embed/F9Bo89m2f6g"></object>
+          </div>
+        </div>
       </div>
 
-      <section class="d-flex flex-row mt-3">
-        <div id="main" class="d-flex justify-content-start">
-          <div class="d-flex flex-column">
-            <div class="sbv mb-4">
-              <b>Sejam Bem Vindos!</b>
-            </div>
-            <div class="video">
-              <object width="700em" height="400em" data="https://www.youtube.com/embed/F9Bo89m2f6g"></object>
-            </div>
-          </div>
+      <div id="other-recipes">
+        <div class="mr-title">
+          <h1>Melhores Receitas</h1>
         </div>
 
-        <div id="other-recipes">
-          <div class="mr-title">
-            <h1>Melhores Receitas</h1>
-          </div>
+        <section class="d-flex flex-column w-100">
+          <article id="receita-1" class="d-flex flex-row mb-4">
+            <div id="imgreceita" class="me-3">
+              <img src="" height="100px" width="100px">
+            </div>
+            <div class="w-100 d-flex flex-row">
+              <div class="d-flex flex-column">
+                <div id="receita-nome">
+                  <p>Receita 01</p>
+                </div>
+                <div id="descricao">
+                  <p>(descrição da Receita)</p>
+                </div>
+              </div>
+              <div id="linkreceita" class="d-flex align-items-end">
+                <a href="http://">Leia Mais</a>
+              </div>
+            </div>
+          </article>
 
-          <section class="d-flex flex-column w-100">
-            <article id="receita-1" class="d-flex flex-row mb-4">
-              <div id="imgreceita" class="me-3">
-                <img src="" height="100px" width="100px">
-              </div>
-              <div class="w-100 d-flex flex-row">
-                <div class="d-flex flex-column">
-                  <div id="receita-nome">
-                    <p>Receita 01</p>
-                  </div>
-                  <div id="descricao">
-                    <p>(descrição da Receita)</p>
-                  </div>
+          <article id="receita-2" class="d-flex flex-row mb-4">
+            <div id="imgreceita" class="me-3">
+              <img src="" height="100px" width="100px">
+            </div>
+            <div class="w-100 d-flex flex-row">
+              <div class="d-flex flex-column">
+                <div id="receita-nome">
+                  <p>Receita 02</p>
                 </div>
-                <div id="linkreceita" class="d-flex align-items-end">
-                  <a href="http://">Leia Mais</a>
+                <div id="descricao">
+                  <p>(descrição da Receita)</p>
                 </div>
               </div>
-            </article>
+              <div id="linkreceita" class="d-flex align-items-end">
+                <a href="http://">Leia Mais</a>
+              </div>
+            </div>
+          </article>
 
-            <article id="receita-2" class="d-flex flex-row mb-4">
-              <div id="imgreceita" class="me-3">
-                <img src="" height="100px" width="100px">
-              </div>
-              <div class="w-100 d-flex flex-row">
-                <div class="d-flex flex-column">
-                  <div id="receita-nome">
-                    <p>Receita 02</p>
-                  </div>
-                  <div id="descricao">
-                    <p>(descrição da Receita)</p>
-                  </div>
+          <article id="receita-3" class="d-flex flex-row mb-4">
+            <div id="imgreceita" class="me-3">
+              <img src="" height="100px" width="100px">
+            </div>
+            <div class="w-100 d-flex flex-row">
+              <div class="d-flex flex-column">
+                <div id="receita-nome">
+                  <p>Receita 03</p>
                 </div>
-                <div id="linkreceita" class="d-flex align-items-end">
-                  <a href="http://">Leia Mais</a>
+                <div id="descricao">
+                  <p>(descrição da Receita)</p>
                 </div>
               </div>
-            </article>
+              <div id="linkreceita" class="d-flex align-items-end">
+                <a href="http://">Leia Mais</a>
+              </div>
+            </div>
+          </article>
+        </section>
 
-            <article id="receita-3" class="d-flex flex-row mb-4">
-              <div id="imgreceita" class="me-3">
-                <img src="" height="100px" width="100px">
-              </div>
-              <div class="w-100 d-flex flex-row">
-                <div class="d-flex flex-column">
-                  <div id="receita-nome">
-                    <p>Receita 03</p>
-                  </div>
-                  <div id="descricao">
-                    <p>(descrição da Receita)</p>
-                  </div>
-                </div>
-                <div id="linkreceita" class="d-flex align-items-end">
-                  <a href="http://">Leia Mais</a>
-                </div>
-              </div>
-            </article>
-          </section>
-
-        </div>
-      </section>
-    </div>
+      </div>
+    </section>
     <!-- Optional JavaScript; choose one of the two! -->
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="js/bootstrap.bundle.min.js"></script>
