@@ -31,11 +31,22 @@ header, #row-2 {
   box-shadow: none;
 }
 .sbv {
+  border-bottom-width: 0px;
+
+
   border-style: solid;
   border-color: rgb(244, 244, 244);
   border-width: 2px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.sbv b {
+  font-size: 18px !important;
+}
+.video {
+  padding: 40px 15px;
+  border: 3px solid rgb(244, 244, 244);
+}
+
 .mr {
   border-style: solid;
   border-color: rgb(224, 224, 224);
