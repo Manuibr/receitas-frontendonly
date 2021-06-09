@@ -37,7 +37,10 @@ p {
   background-color:#ffffff;
 }
 .descricao_catalogo {
-  text-align: right;
+  width: 33.3333%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px !important;
 }
 .botoes {
   text-align: center;
@@ -49,4 +52,10 @@ p {
 }
 .catalogo-botao {
   width: 30px;
+}
+.nome_catalogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
