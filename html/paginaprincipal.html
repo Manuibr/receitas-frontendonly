@@ -17,38 +17,17 @@
     <title>Receitas</title>
   </head>
   <body>
-    <div class="p-3">
-      <header>
-        <div id="" class="h-100 d-flex justify-content-between mb-3">
-          <div class="logo d-flex justify-content-center align-items-center">
-            <p class="fs-3">LOGOMARCA</p>
-          </div>
-          <div class="user d-flex justify-content-center align-items-center">
-            <div class="d-flex flex-row justify-content-center align-items-center">
-              <i class="far fa-user fa-2x me-2"></i>
-              <a href="#" id="username" class="fs-4">Usuário</a>
-            </div>
-          </div>
+    <header id="search-header" class="p-3">
+      <div id="row-1" class="h-100 d-flex justify-content-between mb-3">
+        <div class="logo d-flex justify-content-center align-items-center">
+          <p class="fs-3">LOGOMARCA</p>
         </div>
-<<<<<<< HEAD
-        <nav class="d-flex flex-row align-items-center">
-          <nav id="breadcrumb-nav" aria-label="breadcrumb">
-                <ol class="breadcrumb fs-5">
-                  <li class="breadcrumb-item active"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Receitas</li>
-                </ol>
-          </nav>
-          <div id="search-nav" class="h-100 d-flex flex-column bg-light">
-            <form class="d-flex w-100">
-              <input class="form-control w-75 me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success w-25" type="submit">Pesquisar</button>
-            </form>
-=======
         <div class="user d-flex justify-content-center align-items-center">
           <div id="user-menu" class="d-flex flex-row justify-content-center align-items-center">
-            <img id="user-icon" src="../img/usericon.svg" alt="Icone usuário">
+            <div id="user-icon" class="me-2">
+              <i class="fas fa-user fa-3x"></i>
+            </div>
             <a href="#" id="username" class="fs-4">Usuário</a>
->>>>>>> 75fcc3feea56941f21d3168e02038f05c687fb70
           </div>
         </div>
       </div>
@@ -59,7 +38,14 @@
                 <li class="breadcrumb-item active">Receitas</li>
               </ol>
         </nav>
-      </header>
+        <div id="search-nav" class="h-100 d-flex flex-column bg-light rounded">
+          <form class="d-flex w-100">
+            <input id="search-input" class="form-control w-75" type="search" placeholder="Busque por uma receita" aria-label="Search">
+            <button id="search-button" class="btn btn-success w-25 ms-2" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </div>
+    </header>
 
     <section class="d-flex flex-row mt-3">
       <div id="main" class="d-flex justify-content-start">
