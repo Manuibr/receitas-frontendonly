@@ -29,7 +29,7 @@
 
 .informacoes {
   margin-right: 30px;
-  margin-left: 50px;
+  margin-left: 50px !important;
 }
 
 .imagem_receita {
@@ -44,6 +44,12 @@
 
 .passo-comentarios{
   position: relative;
+}
+.ingredientes{
+  margin-left: 200px !important;
+}
+.passos {
+  margin-left: 20px !important;
 }
 
 
