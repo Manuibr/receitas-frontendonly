@@ -35,7 +35,6 @@ p {
   margin-left: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-image: url(..\img\backgroundcorpo.jpg);
-  background-color: ;
 }
 .titulo_cadastro {
   margin-left: 20px;
@@ -94,5 +93,42 @@ p {
 #exampleFormControlTextarea1 {
   min-height: 71px;
   max-height: 71px;
+}
+/* Estilização Do Header */
+#search-header, #row-2 {
+  background-color: #b71540 !important;
+  color: #fff !important;
+}
+
+#breadcrumb-nav, #main {
+  width: 60%;
+}
+#search-nav, #other-recipes {
+  width: 40%;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #fff;
+}
+.breadcrumb li {
+  color: #fff !important;
+}
+
+.breadcrumb {
+  background-color: rgb(250, 250, 250);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  margin: 0 !important;
+  background-color: #b71540 !important;
+}
+
+#search-nav form {
+  background-color: #b71540;
+}
+
+#search-input {
+  border-width: 0px 0px;
+  box-shadow: none;
 }
 
