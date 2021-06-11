@@ -20,8 +20,13 @@
   font-size: 18px !important;
   font-weight: 600;
 }
+
+#main {
+  
+  height: 545px !important;
+}
 .video {
-  padding: 40px 15px;
+  padding: 40px 20px !important;
   border: 3px solid rgb(228, 228, 228);
 }
 
