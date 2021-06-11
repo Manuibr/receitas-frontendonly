@@ -3,124 +3,133 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="../css/custompag.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/custompag.css">
+    <link rel="stylesheet" href="../css/header.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
     <title>Detalhes da Receita</title>
   </head>
-  <body class="p-3">
-    <div>
-      <header class="d-flex justify-content-between mb-3 ">
+  <body>
+    <header class="p-3">
+      <div id="row-1" class="h-100 d-flex justify-content-between mb-3">
         <div class="logo d-flex justify-content-center align-items-center">
           <p class="fs-3">LOGOMARCA</p>
         </div>
         <div class="user d-flex justify-content-center align-items-center">
-          <div class="d-flex flex-row justify-content-center align-items-center">
-            <i class="far fa-user fa-2x me-2"></i>
+          <div id="user-menu" class="d-flex flex-row justify-content-center align-items-center">
+            <div id="user-icon" class="me-2">
+              <i class="fas fa-user fa-3x"></i>
+            </div>
             <a href="#" id="username" class="fs-4">Usuário</a>
           </div>
         </div>
-      </header>
-      <nav class="d-flex flex-row align-items-center">
+      </div>
+      <div id="row-2" class="d-flex flex-row align-items-center">
         <nav id="breadcrumb-nav" aria-label="breadcrumb">
-              <ol class="breadcrumb fs-4">
+              <ol class="breadcrumb fs-5">
                 <li class="breadcrumb-item active"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Receitas</li>
+                <li class="breadcrumb-item active">Receitas</li>
               </ol>
         </nav>
-        <div id="search-nav" class="h-100 d-flex flex-column bg-light">
-          <form class="d-flex w-100">
-            <input class="form-control w-75 me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success w-25" type="submit">Pesquisar</button>
+        <div id="search-nav" class="h-100 d-flex flex-column bg-light rounded">
+          <form class="d-flex w-100 h-100">
+            <input id="search-input" class="form-control w-75" type="search" placeholder="Busque por uma receita" aria-label="Search">
+            <button id="search-button" class="btn btn-success w-25 h-100 ms-2" type="submit">Pesquisar</button>
           </form>
         </div>
-      </nav>
-    </div>
-   <div class="receita">
-    <div class="d-flex align-items-center p-2">
-      <div class="imagem_receita">
-      <img src="" alt="" height="215" width="215">
       </div>
-      <div class="informacoes">
-        <div>
-          estrelas
+    </header>
+    <div class="receita">
+      <div class="d-flex align-items-center p-2">
+        <div class="imagem_receita">
+        <img src="" alt="" height="215" width="215">
         </div>
-        <div>
-          <h2>Nome da Receita</h2>
-        </div>
-        <div>
-          detalhes
-        </div>
-        <div>
-          <b>Preparo:</b>
-        </div>
-        <div>
-          <b>Cozimento:</b>
-        </div>
-        <div>
-          <b>Rendimento:</b>
-        </div>
-      </div>
-      <div class="ingredientes">
-        <div>
-          <h3>Ingredientes:</h3>
-        </div>
-        <div>
-          <ul>
-            <li>ingrediente 1</li>
-            <li>ingrediente 2</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    </div>
-    <br>
-    <div class="biografia p-2">
-      <div>
-        <h3>Curiosidades Sobre o Prato</h3>
-        <h4>Você Sabia?</h4>
-      </div>
-      <div>
-        Este prato é originado do blablabla...
-      </div>
-    </div>
-    <br>
-    <div class="d-flex justify-content-between p-2">
-      <div class="preparo p-2">
-        <div class="passo-a-passo">
-          <h2>Passo-a-Passo</h2>
-        </div>
-        <div>
-          <ol>
-            <li>Passo 1</li>
-            <li>Passo 2</li>
-            <li>Passo 3</li>
-          </ol>
-        </div>
-      </div>
-      <div class="aba-comentario p-2">
-        <div>
-          <h2>Comentários</h2>
-        </div>
-        <div>
-          <input type="image" src="C:\Users\Emanuel Pinheiro\Downloads\ProgramacaoWeb\ProjetoSergio\img\iconeuser.png" height="25" width="50"> COMENTÁRIO
-        </div>
-        <br>
-        <div>
-          <input type="image" src="C:\Users\Emanuel Pinheiro\Downloads\ProgramacaoWeb\ProjetoSergio\img\iconeuser.png" height="25" width="50"> COMENTÁRIO
-        </div>
-        <br>
-        <div>
-           <input type="image" src="C:\Users\Emanuel Pinheiro\Downloads\ProgramacaoWeb\ProjetoSergio\img\iconeuser.png" height="25" width="50"> COMENTÁRIO
-        </div>
-        <br>
-        <div>
-          <div id="search-nav" class="h-100 d-flex flex-column bg-light">
-            <form class="d-flex w-100">
-              <input class="form-control w-75 me-2" type="text">
-              <button class="btn btn-outline-success w-50" type="submit">Comentar</button>
-            </form>
+        <div class="informacoes">
+          <div>
+            estrelas
+          </div>
+          <div>
+            <h2>Nome da Receita</h2>
+          </div>
+          <div>
+            detalhes
+          </div>
+          <div>
+            <b>Preparo:</b>
+          </div>
+          <div>
+            <b>Cozimento:</b>
+          </div>
+          <div>
+            <b>Rendimento:</b>
           </div>
         </div>
-    </div>
-    </div>
+        <div class="ingredientes">
+          <div>
+            <h3>Ingredientes:</h3>
+          </div>
+          <div>
+            <ul>
+              <li>ingrediente 1</li>
+              <li>ingrediente 2</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </div>
+      <br>
+      <div class="biografia p-2">
+        <div>
+          <h3>Curiosidades Sobre o Prato</h3>
+          <h4>Você Sabia?</h4>
+        </div>
+        <div>
+          Este prato é originado do blablabla...
+        </div>
+      </div>
+      <br>
+      <div class="d-flex justify-content-between p-2">
+        <div class="preparo p-2">
+          <div class="passo-a-passo">
+            <h2>Passo-a-Passo</h2>
+          </div>
+          <div>
+            <ol>
+              <li>Passo 1</li>
+              <li>Passo 2</li>
+              <li>Passo 3</li>
+            </ol>
+          </div>
+        </div>
+        <div class="aba-comentario p-2">
+          <div>
+            <h2>Comentários</h2>
+          </div>
+          <div>
+            <input type="image" src="C:\Users\Emanuel Pinheiro\Downloads\ProgramacaoWeb\ProjetoSergio\img\iconeuser.png" height="25" width="50"> COMENTÁRIO
+          </div>
+          <br>
+          <div>
+            <input type="image" src="C:\Users\Emanuel Pinheiro\Downloads\ProgramacaoWeb\ProjetoSergio\img\iconeuser.png" height="25" width="50"> COMENTÁRIO
+          </div>
+          <br>
+          <div>
+            <input type="image" src="C:\Users\Emanuel Pinheiro\Downloads\ProgramacaoWeb\ProjetoSergio\img\iconeuser.png" height="25" width="50"> COMENTÁRIO
+          </div>
+          <br>
+          <div>
+            <div id="search-nav" class="h-100 d-flex flex-column bg-light">
+              <form class="d-flex w-100">
+                <input class="form-control w-75 me-2" type="text">
+                <button class="btn btn-outline-success w-50" type="submit">Comentar</button>
+              </form>
+            </div>
+          </div>
+      </div>
+      </div>
   </body>

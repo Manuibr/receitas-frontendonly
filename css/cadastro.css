@@ -9,10 +9,6 @@ a {
   text-decoration: none !important;
 }
 
-header {
-  height: 15vh;
-  margin-bottom: 5px !important;
-}
 input, button {
   box-shadow: none !important;
 }
@@ -35,7 +31,6 @@ p {
   margin-left: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-image: url(..\img\backgroundcorpo.jpg);
-  background-color: ;
 }
 .titulo_cadastro {
   margin-left: 20px;
